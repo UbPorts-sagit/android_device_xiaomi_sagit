@@ -59,7 +59,7 @@
         <item>3000</item>
         <item>3540</item>
         <item>4000</item>
-        <item>12000</item>        
+        <item>12000</item>
     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
@@ -72,7 +72,7 @@
         <item>2</item>
         <item>3</item>
         <item>3</item>
-        <item>5</item>        
+        <item>5</item>
         <item>8</item>
         <item>15</item>
         <item>20</item>
@@ -97,7 +97,7 @@
         <item>145</item>
         <item>180</item>
         <item>200</item>
-        <item>225</item>        
+        <item>225</item>
         <item>240</item>
         <item>255</item>
     </integer-array>
@@ -121,7 +121,7 @@
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
     <!-- Button backlight -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <bool name="config_button_brightness_support">true</bool>
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
