@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-ALLOW_MISSING_DEPENDENCIES=true
-
 # Inherit from msm8998-common
 include device/xiaomi/msm8998-common/BoardConfigCommon.mk
 
