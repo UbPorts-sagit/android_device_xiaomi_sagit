@@ -24,4 +24,7 @@
     <integer name="config_proximityCheckTimeout">200</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
+    <!-- Value for overriding outdoor capable mode for LiveDisplay tile -->
+    <bool name="config_outdoorCapable">true</bool>
+
 </resources>
