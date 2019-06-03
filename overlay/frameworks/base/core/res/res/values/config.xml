@@ -142,4 +142,8 @@
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
+
+    <!-- Stop listening to the fingerprint reader when NON-WAKEUP proximity sensor is covered & screen is off.
+         config_proximityCheckOnWake must be true. -->
+    <bool name="config_proximityCheckOnFingerprintWake">true</bool>
 </resources>
