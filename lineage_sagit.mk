@@ -23,6 +23,9 @@ $(call inherit-product, device/xiaomi/sagit/device.mk)
 # Inherit some common Halium stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
 
+# Inherit fonts
+$(call inherit-product-if-exists, frameworks/base/data/fonts/fonts.mk)
+
 PRODUCT_NAME := lineage_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
