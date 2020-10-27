@@ -50,10 +50,5 @@ PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
 
-# Miui Camera
-$(call inherit-product, vendor/XiaomiCustom/MiuiCamera/MiuiCamera.mk)
-# Google Camera
-$(call inherit-product, vendor/XiaomiCustom/GoogleCamera/GoogleCamera.mk)
-
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sagit/sagit-vendor.mk)
