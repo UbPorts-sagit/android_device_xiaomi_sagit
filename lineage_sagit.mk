@@ -18,11 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/aosp/common.mk)
-
-# UnOfficial AospExtended
-EXTENDED_BUILD_TYPE := ShevT
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -30,13 +27,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Inherit from sagit device
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
-PRODUCT_NAME := aosp_sagit
+PRODUCT_NAME := lineage_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Use Jelly
-TARGET_USE_JELLY := true
